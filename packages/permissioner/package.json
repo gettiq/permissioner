@@ -3,26 +3,39 @@
     "version": "1.0.0",
     "author": "tiq UG (haftungsbeschraenkt)",
     "description": "A powerful and easy-to-use TypeScript library for building complex permission systems in your applications.",
-    "keywords": ["permissions", "typescript", "access-control", "authorization", "security", "auth", "backend", "permission-engine", "frontend", "fullstack"],
+    "keywords": [
+        "permissions",
+        "typescript",
+        "access-control",
+        "authorization",
+        "security",
+        "auth",
+        "backend",
+        "permission-engine",
+        "frontend",
+        "fullstack"
+    ],
     "homepage": "https://github.com/gettiq/permissioner.git",
     "bugs": {
-	"url": "https://github.com/gettiq/permissioner/issues"
+        "url": "https://github.com/gettiq/permissioner/issues"
     },
     "publishConfig": {
-	"access": "public"
+        "access": "public"
     },
     "type": "module",
-    "main": "src/index.ts",
-    "files": ["dist/index.js"],
+    "main": "dist/index.js",
+    "files": [
+        "dist/index.js"
+    ],
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
     "private": false,
     "license": "Apache-2.0",
     "devDependencies": {
-	    "tsup": "^6.4.0",
-	    "typescript": "^5"
+        "tsup": "^6.4.0",
+        "typescript": "^5"
     },
     "scripts": {
-	"build": "tsup"
+        "build": "tsup"
     }
 }

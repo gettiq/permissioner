@@ -1,4 +1,12 @@
 import {
+    PermissionCheckParameters,
+    Permissioner,
+    type FallbackPermissionTable,
+    type PermissionCheckers,
+    type Permissions,
+    type PermsCheckersData
+} from "@tiq/permissioner";
+import {
     createContext,
     useContext,
     useEffect,
@@ -7,14 +15,6 @@ import {
     type FC,
     type PropsWithChildren
 } from "react";
-import {
-    PermissionCheckParameters,
-    Permissioner,
-    type FallbackPermissionTable,
-    type PermissionCheckers,
-    type Permissions,
-    type PermsCheckersData
-} from "@tiq/permissioner";
 
 export function createReactPermissioner<
     Perms extends Permissions,

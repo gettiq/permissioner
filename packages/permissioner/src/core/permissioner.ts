@@ -197,7 +197,7 @@ export class Permissioner<
             this.fallbacks[functionality][action].conditions;
 
         const conditions =
-            "conditions" in actionKey ? actionKey.conditions ?? {} : {};
+            "conditions" in actionKey ? (actionKey.conditions ?? {}) : {};
 
         // Make sure that we remove deprecated keys from this entry.
         for (const cond in conditions) {
