@@ -6,7 +6,7 @@ With [tiq](https://www.gettiq.com/) you can collect augmented feedback and bug r
 
 The tiq permissioner is a small but powerful TypeScript library for building complex permission systems in your applications. The idea is to define permissions for ressources and potential checks for them in one place and then use them throughout your application.
 It is designed to be framework-agnostic but provide framework-specific abstractions to make the integration as easy as possible.
-This repository contains the source code for the `@tiq/permisioner` library as well as the framework-specific abstractions of it (e.g. `@tiq/permissioner/react`).
+This repository contains the source code for the `@tiq/permisioner` library as well as the framework-specific abstractions of it (e.g. `@tiq/permissioner-react`).
 
 ## Installation
 
@@ -19,7 +19,7 @@ pnpm install @tiq/permissioner
 To install the React permissioner:
 
 ```bash
-pnpm install @tiq/permissioner/react
+pnpm install @tiq/permissioner-react
 ```
 
 ## Documentation
@@ -34,4 +34,4 @@ For the documentation of the permissioner, please refer to the [README](https://
 
 The React permissioner provides a React hook to use the permissioner in your React application. It is designed to be as easy to use as possible and provides a simple API to interact with the permissioner.
 
-For the documentation of the permissioner, please refer to the [README](https://www.npmjs.com/package/@tiq/permissioner/react) of the `@tiq/permissioner/react` package.
+For the documentation of the permissioner, please refer to the [README](https://www.npmjs.com/package/@tiq/permissioner-react) of the `@tiq/permissioner-react` package.

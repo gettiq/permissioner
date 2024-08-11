@@ -1,5 +1,5 @@
 {
-    "name": "@tiq/permissioner/react",
+    "name": "@tiq/permissioner-react",
     "version": "1.0.1",
     "author": "tiq UG (haftungsbeschraenkt)",
     "description": "A powerful and easy-to-use TypeScript library for building complex permission systems in your applications.",
