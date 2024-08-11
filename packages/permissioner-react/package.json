@@ -1,6 +1,6 @@
 {
     "name": "@tiq/permissioner/react",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "tiq UG (haftungsbeschraenkt)",
     "description": "A powerful and easy-to-use TypeScript library for building complex permission systems in your applications.",
     "keywords": [
@@ -34,7 +34,7 @@
     "private": false,
     "license": "Apache-2.0",
     "dependencies": {
-        "@tiq/permissioner": "1.0.0"
+        "@tiq/permissioner": "1.0.1"
     },
     "devDependencies": {
         "tsup": "^6.4.0",

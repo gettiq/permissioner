@@ -57,10 +57,10 @@ importers:
         specifier: ^5
         version: 5.5.4
 
-  packages/react:
+  packages/permissioner-react:
     dependencies:
       '@tiq/permissioner':
-        specifier: 1.0.0
+        specifier: 1.0.1
         version: link:../permissioner
       '@types/react':
         specifier: ^18.2.0

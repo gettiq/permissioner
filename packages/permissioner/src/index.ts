@@ -5,6 +5,7 @@ export {
     type FallbackPermissionTable,
     type CreatePermsCheckersData,
     type PermsCheckersData,
+    type PermissionCheckParameters,
     type PermissionCheckers,
     Permissioner
 } from "./core/permissioner";
